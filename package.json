@@ -1,0 +1,26 @@
+{
+  "name": "bee-transaction",
+  "version": "0.0.0",
+  "description": "Automatic batch for Hyperbee",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && brittle test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LuKks/bee-transaction.git"
+  },
+  "author": "Lucas Barrena (LuKks)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LuKks/bee-transaction/issues"
+  },
+  "homepage": "https://github.com/LuKks/bee-transaction#readme",
+  "devDependencies": {
+    "brittle": "^3.3.2",
+    "hyperbee": "^2.18.1",
+    "hypercore": "^10.31.12",
+    "random-access-memory": "^6.2.0",
+    "standard": "^17.1.0"
+  }
+}
